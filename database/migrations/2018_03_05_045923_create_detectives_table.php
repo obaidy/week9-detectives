@@ -17,7 +17,7 @@ class CreateDetectivesTable extends Migration
             $table->increments('id');
             $table->string('slug')->unique();
             $table->string('name')->nullable();
-            $table->text('story')->nullable();
+            $table->text('history')->nullable();
             $table->time('available_from');
             $table->time('available_until');
             $table->timestamps();
