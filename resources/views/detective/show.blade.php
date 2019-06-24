@@ -28,6 +28,7 @@
         <h2>Hire a detective</h2>
 
         <form action="" method="post">
+          @csrf
 
             <input type="text" name="subject" placeholder="What crime has been commited?">
 
